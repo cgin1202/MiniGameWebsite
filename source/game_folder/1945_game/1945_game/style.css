@@ -1,0 +1,83 @@
+body{
+  background-color: #000;
+  color: white;
+  font-family: "Tahoma";
+}
+span{
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+canvas{
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: 0 auto;
+  background-color: #333;
+}
+#game-over{
+  position: absolute;
+  width: 512px;
+  height: 480px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+}
+#level{
+  position: absolute;
+  width: 512px;
+  height: 480;
+  left: 10;
+  right: 30;
+  margin: auto;
+  z-index: 8;
+}
+#score-name {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 399px;
+  right: 30px;
+  margin: auto;
+  z-index: 8;
+  top: 420;
+}
+#game-over-overlay{
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  width: 512px;
+  height: 480px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 9;
+}
+.game-over-text{
+  font-size: 60px;
+  text-align: center;
+  
+}
+.level-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+#play-again{
+  position: absolute;
+  background: none;
+  font-size: 30px;
+  color: green;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+

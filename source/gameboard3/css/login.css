@@ -1,0 +1,12 @@
+*:lang(en) { 
+	font-family: Courier New, Courier, monospace; 
+}
+*:lang(ko) {
+	font-family: 'Hanna', serif; 
+}
+.en {
+	font-family: Courier New, Courier, monospace;
+}
+.ko {
+	font-family: 'Hanna', serif;
+}
